@@ -1,0 +1,308 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: black;
+  font-family: Helvetica, Arial, sans-serif;
+  background: white;
+}
+/* apply styles to header */
+header {
+  padding: 20px 35px;
+  background-image: linear-gradient(to right, black, #0b563e);
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+header nav {
+  margin: 35px 0;
+  padding-top: 0px;
+}
+
+header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+header nav ul li a {
+  padding: 10px 15px;
+  font-weight: lighter;
+  font-size: 1.55vw;
+}
+
+footer {
+  background: #0b563e;
+  width: 100%;
+  padding: 40px 35px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  font-size: 1vw;
+}
+
+footer h2 {
+  color: black;
+  font-size: 30px;
+  margin: 0;
+  justify-content: center;
+}
+
+footer div {
+  line-height: 1.5;
+}
+.footer-header {
+  text-align: space-between;
+}
+
+/* Hero Style Start */
+.hero {
+  background-image: url(/images/perez-banner.jpeg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+.home {
+  background-image: url(/images/perez-banner.jpeg);
+  font-size: 25px;
+  justify-content: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+/* Hero Styles End */
+.section-title {
+  font-size: 48px;
+  font-weight: bold;
+  color: #0b563e;
+  border-bottom: 1px solid;
+  padding-bottom: 20px;
+  text-align: center;
+  margin: 0 auto 35px auto;
+  width: 50%;
+}
+.primary-border {
+  border-color: #0b563e;
+}
+.secondary-border {
+  border-color: black;
+}
+.description {
+  font-size: 24px;
+  text-align: center;
+}
+.intro p {
+  line-height: 1.7;
+  color: black;
+  width: 80%;
+  font-size: 20px;
+  margin: 0 auto;
+  text-align: center;
+}
+.services {
+  background: white;
+}
+.service {
+  margin: 50px auto;
+  padding-bottom: 50px;
+  width: 80%;
+  border-bottom: 1px solid #0b563e;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.service h3 {
+  color: #0b563e;
+  font-size: 30px;
+  flex: 1 30%;
+  padding-bottom: 20px;
+}
+.service-info {
+  flex: 2 70%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.service-text p {
+  color: black;
+  font-size: 18px;
+}
+.service-text {
+  flex: 12;
+}
+.service-img {
+  flex: 1 5%;
+  margin-right: 20px;
+  image-resolution: 10px;
+}
+.agent {
+  margin: 20px;
+  background-image: linear-gradient(to top, black, #0b563e);
+  color: white;
+  flex: 1;
+  padding: 25px;
+}
+.agent img {
+  width: 50%;
+}
+.agent-bio {
+  padding: 12px;
+  line-height: 1.3;
+}
+.agent-bio {
+  font-size: 28px;
+}
+.agent-bio h4 {
+  font-weight: lighter;
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+.agent-bio p {
+  font-size: 17px;
+}
+.john-perez {
+  width: 75%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.contact {
+  background-image: linear-gradient(to top, black, #0b563e);
+  padding: 25px;
+}
+.contact h2 {
+  color: white;
+}
+.contact-info iframe {
+  width: 300px;
+  height: 300px;
+}
+.contact-info div {
+  width: 410px;
+  display: inline-block;
+  vertical-align: top;
+  text-align: left;
+  margin: 30px 0 0 60px;
+  color: white;
+}
+.contact-info h3 {
+  color: white;
+  font-size: 32px;
+}
+.contact-info p,
+.contact-info address {
+  margin: 20px 0;
+  line-height: 1.5;
+  font-size: 16px;
+  font-style: normal;
+}
+.contact-info a {
+  color: yellow;
+}
+.contact-info {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.contact-info > * {
+  flex: 1;
+  margin: 15px;
+}
+.contact-form input,
+.contact-form textarea {
+  border: 1px solid yellow;
+  display: block;
+  padding: 7px 15px;
+  font-size: 16px;
+  color: #024e76;
+  width: 100%;
+  margin-bottom: 15px;
+  margin-top: 5px;
+}
+.contact-form button {
+  width: 100%;
+  border: none;
+  background: #fce138;
+  color: #0b563e;
+  text-align: center;
+  font-weight: bold;
+  padding: 15px 0;
+  font-size: 16px;
+}
+section {
+  padding: 60px;
+}
+.text-left {
+  text-align: left;
+}
+.text-right {
+  text-align: right;
+}
+.flex-row {
+  display: flex;
+}
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {
+  header {
+    padding-bottom: 0;
+    justify-content: center;
+  }
+  header h1 {
+    width: 100%;
+    text-align: center;
+  }
+  header nav ul {
+    margin-top: 20px;
+    width: 100%;
+    justify-content: center;
+  }
+  header nav ul li a {
+    font-size: 20px;
+  }
+  footer h2,
+  footer div {
+    text-align: center;
+    width: 100%;
+  }
+  .hero-cta,
+  .hero-form {
+    width: 100%;
+  }
+  .hero-cta {
+    text-align: center;
+  }
+  .section-title {
+    width: 80%;
+  }
+  .trainer {
+    flex: 0 70%;
+  }
+  .contact-info iframe {
+    flex: 1 100%;
+  }
+}
+/* media query for tablets and smaller */
+
+@media screen and (max-width: 768px) {
+}
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 575px) {
+}
