@@ -41,6 +41,7 @@ header nav ul li a {
   padding: 10px 15px;
   font-weight: lighter;
   font-size: 1.55vw;
+  text-shadow: 2px 2px 4px #000000;
 }
 
 footer {
