@@ -71,21 +71,21 @@ footer div {
 /* Hero Style Start */
 .hero {
   background-image: url(/images/perez-banner.jpeg);
-  background-size: cover;
-  background-position: center;
+  /* background-size: cover; */
+  /* background-position: center; */
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  align-items: flex-start;
+  /* align-items: flex-start; */
 }
 .home {
   background-image: url(/images/perez-banner.jpeg);
-  font-size: 25px;
-  justify-content: center;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  align-items: flex-start;
+  /* font-size: 25px; */
+  /* justify-content: center; */
+  /* display: flex; */
+  /* justify-content: center; */
+  /* flex-wrap: wrap; */
+  /* align-items: flex-start; */
 }
 /* Hero Styles End */
 .section-title {
@@ -160,7 +160,7 @@ footer div {
   margin-right: 20px;
   image-resolution: 10px;
 }
-.our-team-h2 {
+.h2 {
   font-size: 48px;
   font-weight: bold;
   color: #0b563e;
